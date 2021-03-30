@@ -5,15 +5,25 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+<<<<<<< HEAD
     "ci-check": "yarn format:diff",
+=======
+    "ci-check": "yarn format:diff && yarn test:unit",
+>>>>>>> vue-step-1
     "format:diff": "prettier --list-different \"src/**/*.{js,vue,scss}\"",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@carbon/icons-vue": "^10.4.0",
     "@carbon/vue": "^2.12.0",
     "carbon-components": "^10.4.1",
+=======
+    "@carbon/icons-vue": "^10.28.0",
+    "@carbon/vue": "^2.37.1",
+    "carbon-components": "^10.31.0",
+>>>>>>> vue-step-1
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
